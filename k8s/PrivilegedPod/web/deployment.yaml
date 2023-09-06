@@ -25,7 +25,7 @@ spec:
             initialDelaySeconds: 2
             periodSeconds: 10
           securityContext:
-            privileged: true
+            privileged: false
             capabilities:
               drop:
                 - all
